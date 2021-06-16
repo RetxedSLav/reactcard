@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: gray;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+
+ .income-overlap {
+  height: 156px;
+  margin-top: 14px;
+  position: relative;
+  width: 250px;
+  
+}
+
+.income-overlay {
+  background: linear-gradient(
+    230deg,
+    rgba(51, 226, 243, 1) 10%,
+    rgba(33, 52, 231, 1) 100%
+  );
+  border-radius: 15px; /* added */
+  align-items: flex-start;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: -4px; /* edited */
+  margin-top: -4px; /* edited */
+  min-height: 164px;
+  padding: 22px;
+  width: 254px;
+  
+} 
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+* {
+  box-sizing: border-box;
+}

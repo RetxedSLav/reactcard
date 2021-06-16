@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "jpoissonnier.vscode-styled-components",
+        "esbenp.prettier-vscode",
+        "msjsdiag.vscode-react-native",
+        "burkeholland.simple-react-snippets"
+    ]
+}
