@@ -7,7 +7,7 @@ const data= [
       id: "1",
       dcount: "45",
       label:  "Vaccine",
-      icon: <FaSyringe/>,
+      icon: <FaSyringe color="white"/>,
       percent:"45%"
       
     },
@@ -15,14 +15,14 @@ const data= [
         id: "2",
         dcount: "11",
         label:  "Surgery",
-        icon: <FaMoneyCheckAlt/>,
+        icon: <FaMoneyCheckAlt color="white"/>,
         percent:"15%"
     },
     {
         id: "3",
         dcount: "410",
         label:  "Income",
-        icon: <GrEmergency/>,
+        icon: <GrEmergency color="white"/>,
         percent:"65%"
     },
 

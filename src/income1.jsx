@@ -18,8 +18,7 @@ class RCard extends React.Component {
                                                      <Grid item key={MyCard}>
                                                          <MyCard>
                                                              <IconBox >                                                                 
-                                                                    {count.icon }                                          
-                                                                                                                                                                                                                                                                                                                      
+                                                                    {count.icon }                                                                                                                                                                                                                                                                                                                     
                                                              </IconBox>
                                                              <CardContent >
                                                                   <Num>
@@ -51,7 +50,7 @@ class RCard extends React.Component {
 const MyCard = styled(Card)({
     
       borderRadius:'15px', /* added */
-      background: 'linear-gradient(45deg, #2134E7 35% , #33E2F3 100%)',
+      background: 'linear-gradient(315deg, #ffffff 0% , #d7e1ec 74%)',
       display: 'flex',
       flexDirection: 'column',
       height: '156px',
@@ -59,13 +58,14 @@ const MyCard = styled(Card)({
       width: '254px',
       position:'relative',
       top:'40px',
-      left:'500px'
+      left:'500px',
+      boxShadow: '0px 7px 29px 0px rgba(100, 100, 111, 0.2)'
       
 });
      
 const Num = styled(Typography)({
     
-    color:'white',
+    color:'#011936',
     fontFamily: 'Poppins',
     fontSize: '32px',
     display: 'flex-right',
@@ -79,7 +79,7 @@ const Num = styled(Typography)({
 
 const Text = styled(Typography)({
     
-    color:'white',
+    color:'c',
     fontFamily: 'Poppins',
     fontSize: '12.5px',
     fontWeight: 500,
@@ -108,7 +108,7 @@ const PCard = styled(Card)({
 
 const Pill = styled(Typography)({
     
-    color: 'white',
+    color: '#011936',
     fontFamily: 'poppins',
     fontSize: '17.5px',
     align: 'center',
@@ -123,7 +123,7 @@ const IconBox = styled(Box)({
     borderRadius:'5px',
     padding:'10px 10px',
     position:'absolute',
-    background:'white',
+    background:'#011936',
 });
 
 export default RCard;
